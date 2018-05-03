@@ -1,7 +1,7 @@
 # Golang bindings for the Telegram Bot API
 
 [![GoDoc](https://godoc.org/github.com/"github.com/ignusius/telegram-bot-api"?status.svg)](http://godoc.org/github.com/ignusius/telegram-bot-api)
-[![Travis](https://travis-ci.org/ignusius/telegram-bot-api.svg)](https://travis-ci.org/gignusius/telegram-bot-api)
+[![Travis](https://travis-ci.org/ignusius/telegram-bot-api.svg)](https://travis-ci.org/ignusius/telegram-bot-api)
 
 All methods have been added, and all features should be available.
 If you want a feature that hasn't been added yet or something is broken,
