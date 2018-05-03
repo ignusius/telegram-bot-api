@@ -1,7 +1,7 @@
 # Golang bindings for the Telegram Bot API
 
-[![GoDoc](https://godoc.org/github.com/go-telegram-bot-api/telegram-bot-api?status.svg)](http://godoc.org/github.com/go-telegram-bot-api/telegram-bot-api)
-[![Travis](https://travis-ci.org/go-telegram-bot-api/telegram-bot-api.svg)](https://travis-ci.org/go-telegram-bot-api/telegram-bot-api)
+[![GoDoc](https://godoc.org/github.com/"github.com/ignusius/telegram-bot-api"?status.svg)](http://godoc.org/github.com/ignusius/telegram-bot-api)
+[![Travis](https://travis-ci.org/ignusius/telegram-bot-api.svg)](https://travis-ci.org/gignusius/telegram-bot-api)
 
 All methods have been added, and all features should be available.
 If you want a feature that hasn't been added yet or something is broken,
@@ -16,11 +16,8 @@ without any additional features. There are other projects for creating
 something with plugins and command handlers without having to design
 all that yourself.
 
-Use `github.com/go-telegram-bot-api/telegram-bot-api` for the latest
-version, or use `gopkg.in/telegram-bot-api.v4` for the stable build.
-
-Join [the development group](https://telegram.me/go_telegram_bot_api) if
-you want to ask questions or discuss development.
+Use `github.com/ignusius/telegram-bot-api` for the latest
+version.
 
 ## Example
 
@@ -32,7 +29,7 @@ package main
 
 import (
 	"log"
-	"gopkg.in/telegram-bot-api.v4"
+	"github.com/ignusius/telegram-bot-api"
 )
 
 func main() {
@@ -73,7 +70,7 @@ you may use a slightly different method.
 package main
 
 import (
-	"gopkg.in/telegram-bot-api.v4"
+	"github.com/ignusius/telegram-bot-api"
 	"log"
 	"net/http"
 )
