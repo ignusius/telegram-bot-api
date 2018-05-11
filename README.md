@@ -1,5 +1,14 @@
 # Golang bindings for the Telegram Bot API
 
+Difference from go-telegram-bot-api/telegram-bot-api
+-------------------------
+
+Added SOCKS5 Proxy support.
+```go
+bot, err := tgbotapi.NewBotAPI("my:token", "socks5", "192.168.1.1:1080", nil)
+```
+---------------------------
+
 [![GoDoc](https://godoc.org/github.com/"github.com/ignusius/telegram-bot-api"?status.svg)](http://godoc.org/github.com/ignusius/telegram-bot-api)
 [![Travis](https://travis-ci.org/ignusius/telegram-bot-api.svg)](https://travis-ci.org/ignusius/telegram-bot-api)
 
